@@ -4,7 +4,7 @@ chrome.webRequest.onBeforeRequest.addListener(function(request) {
     var url = request.url
         .replace('googleapis.com', 'lug.ustc.edu.cn')
         .replace('themes.googleusercontent.com', 'google-themes.lug.ustc.edu.cn')
-        .replace(/(www|\d).gravatar.com/, 'cdn.v2ex.com');
+        .replace(/(www|\d).gravatar.com\/avatar/, 'cdn.v2ex.com/gravatar');
     return {
         redirectUrl: url
     };
