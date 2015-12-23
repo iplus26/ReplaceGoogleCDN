@@ -21,3 +21,8 @@ https://chrome.google.com/webstore/detail/replace-google-cdn/kpampjmfiopfpkkepbl
 1. `ajax.googleapis.com` - 前端公共库
 2. `fonts.googleapis.com` - 免费字体库
 3. `themes.googleusercontent.com` - fonts 有时会使用到这个里面的资源
+
+Update: More
+============
+
+* `*.gravatar.com` - 使用 [v2ex](https://v2ex.com/t/141485) 的 Gravatar 头像 CDN
